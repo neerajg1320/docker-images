@@ -1,6 +1,6 @@
-# image_tag=neeraj76/django:postgres-0.1
+# image_tag=neeraj76/django:postgres-0.3
 
-docker build -t neeraj76/django:postgres-0.1 .
+docker build -t neeraj76/django:postgres-0.3 .
 
 # Run Container Method-1
 docker run -d -it <image_tag>
